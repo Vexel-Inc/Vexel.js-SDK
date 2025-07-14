@@ -1384,11 +1384,11 @@ class Array_legnth {
 * new Array_merge(): given_array
 * ```
 */
-// class Array_merge {
-//     constructor(given_array: any, ...another_array_s: any) {
-//         document.writeln(`${given_array + another_array_s}`.replaceAll(","," ")); // This Is Not Error
-//     }
-// }
+class Array_merge {
+    constructor(given_array: any, ...another_array_s: any) {
+        document.writeln(`${given_array + another_array_s}`.replaceAll(","," ")); // This Is Not Error
+    }
+}
 /**
 * Replace Old Array With New Array
 * @param given_array
@@ -1397,12 +1397,12 @@ class Array_legnth {
 * new Array_replace(): given_array
 * ```
 */
-// class Array_replace {
-//     constructor(given_array: any ,another_array: any) {
-//         given_array = Array.from(another_array);
-//         document.writeln(`${given_array}`.replaceAll(","," "));
-//     }
-// }
+class Array_replace {
+    constructor(given_array: any ,another_array: any) {
+        given_array = Array.from(another_array);
+        document.writeln(`${given_array}`.replaceAll(","," "));
+    }
+}
 /**
 * Reverse The Elements In an Array
 * @param given_array
@@ -1411,12 +1411,12 @@ class Array_legnth {
 * new Array_reverse(): given_array
 * ```
 */
-// class Array_reverse {
-//     constructor(given_array: any) {
-//         const gv_array = Array.from(given_array).reverse();
-//         document.writeln(`${gv_array}`.replaceAll(",", " "));
-//     }
-// }
+class Array_reverse {
+    constructor(given_array: any) {
+        const gv_array = Array.from(given_array).reverse();
+        document.writeln(`${gv_array}`.replaceAll(",", " "));
+    }
+}
 /**
 * Random The Elements In an Array
 * @param given_array
@@ -1460,13 +1460,3 @@ class Array_shift {
         document.writeln(clearedArray = '');
     }
 }
-
-
-
-
-// let NOTIFICATION: NOTIFICATION = {
-//     name: "Ahmed",
-//     header: {
-//         notification_title: 'Noti',
-//     }
-// }

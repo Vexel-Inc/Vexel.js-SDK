@@ -62,7 +62,7 @@ new Array_pop() // @param given_array
 ```Javascript
 new Array_shift() // @param given_array
 ```
-- and Much More Functions & Classes
+- And Much More Functions & Classes, Docs Site Coming Soon In 2025
 
 # Version
 - Vexel.js SDK v1.0.0 `2025.0`

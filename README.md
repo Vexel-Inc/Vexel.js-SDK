@@ -29,7 +29,43 @@ new __VERSION__() // @param typeWriter
 ```Javascript
 new VAR_TYPE() // @param var
 ```
-- file => Get Current Type Of The Variable
+- file => Read & Import Current Files From URL & Path
 ```Javascript
 new file() // @param path
 ```
+// Array Classes/Functions
+- Array_legnth => Return Array Length
+```Javascript
+new Array_legnth() // @param given_array
+```
+- Array_merge => Merge One Or More Arrays
+```Javascript
+new Array_merge() // @param given_array
+```
+- Array_replace => Replace Old Array With New Array Without Change any Real Values
+```Javascript
+new Array_replace() // @param given_array, new_array
+```
+- Array_reverse => Reverse The Elements In an Array
+```Javascript
+new Array_reverse() // @param given_array
+```
+- Array_shuffle => Random The Elements In an Array
+```Javascript
+new Array_shuffle() // @param given_array
+```
+- Array_pop => Remove The Firist Element In an Array
+```Javascript
+new Array_pop() // @param given_array
+```
+- Array_shift => Remove The Last Element In an Array
+```Javascript
+new Array_shift() // @param given_array
+```
+- and Much More Functions & Classes
+
+# Version
+- Vexel.js SDK v1.0.0 `2025.0`
+
+# License
+This Project Licensed undel [GNU](https://github.com/Vexel-Inc/Vexel.js-SDK/blob/main/LICENSE)
